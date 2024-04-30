@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,46 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Saira", sans-serif;
+}
+
+
+
+.AboutHeader {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.7)), url(../public/img/About_kakhvg.webp);
+  background-size: 100% 100%;
+}
+
+.ServiceHeader {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(15, 14, 14, 0.7)), url(../public/img/Services_yndg1o.webp);
+  background-size: 100% 100%;
+}
+
+.ProjectHeader {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(15, 14, 14, 0.7)), url(../public/img/Project_zoszw6.webp);
+  background-size: 100% 100%;
+}
+
+.ContactHeader {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(15, 14, 14, 0.7)), url(../public/img/Contact_w2ejrz.webp);
+  background-size: 100% 100%;
+}
+
+.JobHeader {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(15, 14, 14, 0.7)), url(../public/img/breadcrumb-bg.e682b673721f2d76ac96.jpg);
+  background-size: 100% 100%;
+}
+
+.BlogHeader {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(15, 14, 14, 0.7)), url(../public/img/Blog_Banner_d1t1mm.webp);
+  background-size: 100% 100%;
 }
