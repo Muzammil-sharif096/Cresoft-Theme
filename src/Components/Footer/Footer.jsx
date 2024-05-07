@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='p-5 md:p-12 bg-gray-900'>
-            <footer className='xl:flex flex-wrap text-white justify-evenly'>
+        <div className='p-5 md:p-12  bg-gray-900'>
+            <footer className='xl:flex flex-wrap space-y-4 text-white justify-evenly'>
                 <ul className='space-y-4'>
                     <li><img src="./img/logo (1).svg" alt="" /></li>
                     <li>At Creasoft, we're not just a service <br /> provider; we're your dedicated partner in <br /> success. Our commitment to excellence <br /> permeates every aspect of what we do.</li>

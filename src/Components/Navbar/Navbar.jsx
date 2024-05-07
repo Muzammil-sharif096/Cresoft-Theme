@@ -6,6 +6,9 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
     const [showNavbar, setShowNavbar] = useState(false)
+    const handleclk = () => {
+        setShowNavbar(false)
+    }
 
     return (
         <nav className='flex justify-between items-center lg:px-28 px-2 py-5 bg-gray-700'>
@@ -34,29 +37,23 @@ const Navbar = () => {
             </button>
             {
                 showNavbar && (
-                    <div className={`lg:hidden fixed top-0 left-0 w-96 h-screen bg-black bg-opacity-90 z-50`}>
-                        <div className='flex justify-end p-4'>
-                            <button className='text-white text-2xl cursor-pointer' onClick={() => setShowNavbar(false)}><FaTimes /></button>
+                    <div className='lg:hidden fixed top-0 left-0 w-96 h-screen bg-black bg-opacity-90 z-50'>
+                        <div className='flex justify-end p-7'>
+                            <button className='text-white text-2xl cursor-pointer' onClick={() => setShowNavbar(false)}>
+                                <FaTimes />
+                            </button>
                         </div>
                         <div className='mt-4 p-2'>
-                            <img className='px-2' src="./img/logo (1).svg" alt="" />
+                            <h1 className='text-3xl px-4 tracking-wide text-white font-bold'>Exclusive</h1>
                             <hr className='border-[#63B597] p-2 mt-2' />
-                            <ul className='text-white flex flex-col items-start px-4 text-base font-semibold text-center'>
+                            <ul className='text-white flex flex-col cursor-pointer items-start px-4 text-base font-semibold text-center'>
                                 {
-                                    NavbarData.map((ele) => {
-                                        return (
-                                            <>
-                                                <li className='py-3 tracking-wider'>
-                                                    <Link
-                                                        to={ele.Link}
-                                                    >
-                                                        {ele.Li}
-                                                    </Link>
-                                                </li>
-                                                <hr className='border w-full' />
-                                            </>
-                                        )
-                                    })
+                                    NavbarData.map((ele, index) => (
+                                        <React.Fragment key={index}>
+                                            <li className='py-3 tracking-wider' key={index}><Link onClick={handleclk} to={ele.Link}>{ele.Li}</Link></li>
+                                            <hr className='border w-full' />
+                                        </React.Fragment>
+                                    ))
                                 }
                             </ul>
                         </div>

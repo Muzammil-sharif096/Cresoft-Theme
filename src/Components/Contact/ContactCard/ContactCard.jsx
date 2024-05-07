@@ -4,7 +4,7 @@ import { FaLocationPin, FaMessage, FaVoicemail } from 'react-icons/fa6'
 
 const ContactCard = () => {
     return (
-        <div className='p-20 bg-black flex flex-wrap 2xl:flex-row justify-evenly  gap-8'>
+        <div className='2xl:p-20 p-4 bg-black flex flex-wrap 2xl:flex-row justify-evenly gap-8'>
             <div className='p-4'>
                 <h1 className='text-white text-4xl p-2 font-bold'>Contact Us If You Have <br /> More Questions.</h1>
                 <div className='lg:flex md:flex-col lg:flex-row p-4 gap-8 items-center'>

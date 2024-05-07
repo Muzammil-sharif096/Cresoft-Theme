@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomeAbout = () => {
     return (
-        <div className='flex flex-col xl:flex-row justify-center gap-12 items-center text-white p-5 lg:p-20 bg-black'>
+        <div className='flex flex-col xl:flex-row justify-center gap-12 items-center text-white p-4 xl:p-20 bg-black'>
             <div className='space-y-8'>
                 <h1 className='text-3xl lg:text-5xl font-bold text-center lg:text-left'>About Us</h1>
                 <p className='text-base lg:text-lg text-center xl:w-[700px] w-auto lg:text-left '>At Creasoft, we're not just a service provider; we're your dedicated partner in success. Our commitment to excellence permeates every aspect of what we do. With a team of seasoned experts, a proven track record of delivering results, and a client-centric approach, we stand out in the industry. Choose us for unparalleled quality, reliability, and a personalized experience that goes beyond your expectations. Join hands with us and embark on a journey of service excellence that's tailored to your unique needs. Your success is our success, and we're here to make it happen.</p>

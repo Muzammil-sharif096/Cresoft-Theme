@@ -127,7 +127,7 @@ const ProjectPageClient = () => {
                     </h2>
                     <p>Creasoft's dedicated team meticulously designed and developed MintStargram.tech, addressing the client's vision and business challenges. By prioritizing fair revenue distribution, introducing cutting-edge features like NFT-Posts, and creating a vibrant community space, Creasoft has successfully revolutionized content monetization. The comprehensive SEO strategy ensures the platform's visibility, attracting a diverse user base and establishing MintStargram.tech by Creasoft as a pioneering force in the intersection of social media, NFTs, and community building. The result is a platform that goes beyond content posting—it's about creating value, building genuine connections, and redefining the digital content landscape. MintStargram.tech stands as a testament to Creasoft's commitment to innovation and client success..</p>
                 </div>
-                <div className='2xl:w-[35%] w-full px-6 py-8 space-y-8'>
+                <div className='2xl:w-[35%] w-full 2xl:px-6 px-2 py-8 space-y-8'>
                     <div className='border-2 p-6 bg-gray-900 space-y-3'>
                         <div>
                             <h2 className='text-lg tracking-widest text-[#63B597]'>1 : Client :</h2>
